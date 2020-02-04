@@ -76,3 +76,4 @@ ggplot(weekday.avg, aes(interval, steps)) + geom_line() + facet_grid(daytype ~ .
   xlab("5-minute Interval") + 
   ylab("Number of Steps") + 
   ggtitle("Comparing NUmber of Steps on Weekdays and Weekend")
+  ```
